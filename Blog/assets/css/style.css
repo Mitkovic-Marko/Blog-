@@ -1,0 +1,39 @@
+body {
+    background-color: #f8f9fa;
+}
+.post-card {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.post-image {
+    width: 350px; /* fiksna širina slike */
+    height: 200px; /* fiksna visina slike */
+    object-fit: cover; /* osigurava da se slika ravnomerno razvuče unutar okvira */
+}
+
+.post-content {
+    padding: 15px;
+}
+
+.post-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.read-more {
+    display: none;
+}
+.post-text {
+    font-size: 16px;
+    color: #555;
+    display: -webkit-box;
+    -webkit-line-clamp: 7; /* Ograničavamo na 7 redova */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
